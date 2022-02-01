@@ -33,6 +33,8 @@ Go to Voicemail Admin and edit the e-mail body block. Add `(TRANSCRIPTION)` some
 
 On the same screen, change the Mail Command to point to the script, e.g. `/usr/local/bin/transcribe.php`
 
+**NOTE:** Voicemail attachments must be in "wav" format. 
+
 ### Example e-mail with transcript
 
 <img src="https://user-images.githubusercontent.com/5303782/152034023-a75fffbb-3fea-4d13-8468-0d75eb5403aa.png" width=600px/>
