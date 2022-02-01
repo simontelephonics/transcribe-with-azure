@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+// (c) 2022 Bill Simon. Permissions given according to MIT license.
+
 $msSpeechUrl = 'https://eastus.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=en-US';
 $apiKey = 'YOUR-KEY-HERE';
 
