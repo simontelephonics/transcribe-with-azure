@@ -4,7 +4,7 @@ Use Azure Cognitive Services - Speech Service to add a transcript to your voicem
 
 ### Sign up for Azure Speech Service
 
-Go to the Azure Portal, add a new Speech Service, and choose a pricing tier. The free tier gives you 5 hours of audio transcription per month--enough for a test or perhaps a small business.
+Go to the Azure Portal, add a new Speech Service, and choose a pricing tier. The free tier gives you 5 hours of audio transcription per month--enough for testing, home use, or perhaps a small business.
 
 <img src="https://user-images.githubusercontent.com/5303782/152031085-157890ac-dbc1-4716-9c73-7a621124a7f4.png" width=400px/>
 
@@ -23,7 +23,7 @@ Put **transcribe.php** in /usr/local/bin and make it readable and executable by 
 
 Change the `$apiKey` variable at the top of the file to the key you copied earlier.
 
-If your Speech Service resource is not in the eastus region, adjust the `$msSpeechUrl` variable to reflect the correct region.
+If your Speech Service resource is not in the eastus region (make note of this on the API Keys screen shown above), adjust the `$msSpeechUrl` variable to reflect the correct region.
 
 #### FreePBX voicemail config
 
