@@ -37,7 +37,7 @@ if ($att) {
 if (! empty($result->{"DisplayText"})) {
         $maildata = str_replace('(TRANSCRIPTION)', $result->{"DisplayText"}, $maildata);
 } else {
-        $maildata = str_replace('(TRANSCRIPTION)', 'No transcription availabile.', $maildata);
+        $maildata = str_replace('(TRANSCRIPTION)', 'No transcription available.', $maildata);
 }
 
 $mailproc = popen('/usr/sbin/sendmail -t', 'w');
